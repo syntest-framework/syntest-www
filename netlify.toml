@@ -24,3 +24,15 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+[[redirects]]
+  from = "https://www.ciselab.com"
+  to = "https://www.ciselab.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://ciselab.com"
+  to = "https://www.ciselab.nl"
+  status = 301
+  force = true
