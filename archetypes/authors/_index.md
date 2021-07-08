@@ -2,10 +2,6 @@
 # Display name
 title: "{{ replace .Name "-" " " | title }}"
 
-# Username (this should match the folder name and the name on publications)
-authors:
-  - "{{ urlize .Name }}"
-
 # Role/position (e.g., (Assistant/Associate) Professor, PhD Candidate)
 role:
 
