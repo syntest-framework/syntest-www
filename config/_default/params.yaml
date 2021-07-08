@@ -14,7 +14,7 @@ theme: minimal
 day_night: false
 
 # Your choice of font
-font: ''  # No value = inherit font from color theme pack (e.g. minimal)
+font: "" # No value = inherit font from color theme pack (e.g. minimal)
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -33,7 +33,7 @@ site_type: Project
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
-local_business_type: ''
+local_business_type: ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.yaml`.
@@ -43,7 +43,7 @@ org_name: SynTest Framework
 description: SynTest is a framework for generating synthetic test cases for different languages
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter: ''
+twitter: ""
 
 ############################
 ## Contact details
@@ -53,34 +53,34 @@ twitter: ''
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to ''.
-email: ''
-phone: ''
+email: ""
+phone: ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address:
-  street: ''
-  city: ''
-  region: ''
-  postcode: ''
-  country: ''
-  country_code: ''
+  street: ""
+  city: ""
+  region: ""
+  postcode: ""
+  country: ""
+  country_code: ""
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 coordinates:
-  latitude: ''
-  longitude: ''
+  latitude: ""
+  longitude: ""
 
 # Directions for visitors to locate you.
-directions: ''
+directions: ""
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
 office_hours: []
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url: ''
+appointment_url: ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
@@ -107,20 +107,29 @@ contact_links: []
 ############################
 
 main_menu:
+  # Display the navigation bar?
   enable: true
+  # Align menu links: left (l), center (c), or right (r)
   align: l
+  # Display your site title or `assets/media/logo*` image in the nav bar?
   show_logo: true
+  # Show a language chooser (if you have translated your site content)?
+  show_translations: true
+  # If `show_translations` is enabled, do you wish to display the current language name?
   show_language: true
+  # Let the user override the default light/dark mode of your theme?
   show_day_night: true
+  # Let the user search from the nav bar?
   show_search: true
+  # Attempt to automatically highlight the active menu link? Can be disabled for complex sites.
   highlight_active_link: true
 
 ############################
 ## Localization
 ############################
 
-date_format: 'Jan 2, 2006'
-time_format: '15:04'
+date_format: "Jan 2, 2006"
+time_format: "15:04"
 address_format: de
 
 ############################
@@ -147,8 +156,8 @@ privacy_pack: true
 # Enable visitors to edit pages?
 #   `repo` defines the repository URL. `editable` defines which page types can be edited.
 edit_page:
-  repo_url: 'https://github.com/syntest-framework/syntest-www'
-  content_dir: 'content'
+  repo_url: "https://github.com/syntest-framework/syntest-www"
+  content_dir: "content"
   repo_branch: main
   editable:
     page: false
@@ -169,7 +178,7 @@ reading_time: true
 
 # Display next/previous section pager? (true/false)
 section_pager: false
-docs_section_pager: true  # Display pager in Docs layout (e.g. tutorials)?
+docs_section_pager: true # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
 sharing: true
@@ -181,7 +190,7 @@ copyright_license:
   allow_derivatives: true
   share_alike: false
   allow_commercial: true
-  notice: 'This work is licensed under {license}'
+  notice: "This work is licensed under {license}"
 
 # Abstract length (characters) in the Compact and Portfolio Card list views. Also, see `summaryLength` in `config.yaml`.
 abstract_length: 135
@@ -198,16 +207,16 @@ avatar:
   gravatar: false
 
   # Choose a shape for avatar images. Options: circle, square.
-  shape: 'circle'
+  shape: "circle"
 
 # Configuration of publication pages.
 publications:
-  # Date format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
+  # Date format (refer to https://wowchemy.com/docs/getting-started/customization/#datetime-options)
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format: 'January 2006'
+  date_format: "January 2006"
 
   # Citation style ("apa" or "mla")
-  citation_style: 'apa'
+  citation_style: "apa"
 
 # Configuration of project pages.
 projects:
@@ -230,7 +239,7 @@ breadcrumb:
 
 comments:
   # Comment provider:
-  provider: ''
+  provider: ""
 
   # Which page types are commentable?
   commentable:
@@ -242,13 +251,13 @@ comments:
 
   # Configuration of Disqus.
   disqus:
-    shortname: ''  # Paste the shortname from your Disqus dashboard.
-    show_count: true  # Show comment count in page header? (true/false)
+    shortname: "" # Paste the shortname from your Disqus dashboard.
+    show_count: true # Show comment count in page header? (true/false)
 
   # Configuration of Commento.
   commento:
-  # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url: ''
+    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url: ""
 
 ############################
 ## Search
@@ -261,9 +270,9 @@ search:
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
   algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
+    app_id: ""
+    api_key: ""
+    index_name: ""
     show_logo: false
 
 ############################
@@ -273,8 +282,8 @@ search:
 map:
   # To show your address on a map in the Contact widget, enter your latitude and longitude (above)
   # and choose a map provider below.
-  provider: ''
-  api_key: ''
+  provider: ""
+  api_key: ""
   zoom: 15
 
 ############################
@@ -282,19 +291,11 @@ map:
 ############################
 
 marketing:
-  google_analytics: 'G-MMBT1MX5FQ'
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-
-############################
-## Content Management System
-############################
-
-cms:
-  branch: master
-  local_backend: false
+  google_analytics: "G-MMBT1MX5FQ"
+  google_tag_manager: ""
+  google_site_verification: ""
+  baidu_site_verification: ""
+  baidu_tongji: ""
 
 ############################
 ## Icon Pack Extensions
@@ -302,4 +303,4 @@ cms:
 
 icon:
   pack:
-    ai: true  # Academicons icon pack https://jpswalsh.github.io/academicons/
+    ai: true # Academicons icon pack https://jpswalsh.github.io/academicons/
