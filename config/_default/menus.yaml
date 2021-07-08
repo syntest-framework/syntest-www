@@ -4,9 +4,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: CISELab
+  - name: Home
     url: ''
     weight: 10
-  - name: Contact
-    url: '#contact'
-    weight: 100
+  - name: Team
+    url: 'team'
+    weight: 20

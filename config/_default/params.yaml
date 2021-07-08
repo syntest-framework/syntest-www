@@ -129,8 +129,7 @@ address_format: de
 
 # Enable source code highlighting? true/false
 highlight: false
-highlight_languages:
-  - r
+highlight_languages: []
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
