@@ -8,7 +8,7 @@
 ############################
 
 # Your choice of color theme
-theme: minimal
+theme: syntest
 
 # Automatically change light/dark mode based on user's preference?
 day_night: false
