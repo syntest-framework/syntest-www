@@ -32,6 +32,10 @@ To preview the website:
 
 1. Run `view.sh`
 
+When an error occurs during building, try deleting the local Hugo cache:
+
+- MacOS/Linux: sudo rm -rf $TMPDIR/hugo_cache/
+
 ## Deploy website
 
 The website is automatically deployed whenever a new commit is merged into the main branch.
