@@ -1,7 +1,7 @@
 # Website for the SynTest Framework
 
 This repo contains the sources for the SynTest Framework website.
-The website is built on top of the popular open-source static site generators [Hugo](https://gohugo.io/) and makes use of the [Wowchemy](https://wowchemy.com/) theme.
+The website is built on top of the popular open-source static site generator [Hugo](https://gohugo.io/) and makes use of the [Wowchemy](https://wowchemy.com/) theme.
 The [Netlify](https://gohugo.io/) service is used to host the website.
 
 ## Adding material
@@ -34,7 +34,7 @@ To preview the website:
 
 When an error occurs during building, try deleting the local Hugo cache:
 
-- MacOS/Linux: sudo rm -rf $TMPDIR/hugo_cache/
+- MacOS/Linux: `sudo rm -rf $TMPDIR/hugo_cache/`
 
 ## Deploy website
 
