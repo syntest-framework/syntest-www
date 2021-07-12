@@ -32,6 +32,10 @@ To preview the website:
 
 1. Run `view.sh`
 
+When making changes, format the files afterwards:
+
+1. Run `npm run format`
+
 When an error occurs during building, try deleting the local Hugo cache:
 
 - MacOS/Linux: `sudo rm -rf $TMPDIR/hugo_cache/`
