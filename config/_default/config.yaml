@@ -48,10 +48,9 @@ ignoreFiles:
 
 # Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
 permalinks:
-  authors: "/author/:slug/"
-  tags: "/tag/:slug/"
-  categories: "/category/:slug/"
-  publication_types: "/publication-type/:slug/"
+  authors: "/authors/:slug/"
+  tags: "/tags/:slug/"
+  categories: "/categories/:slug/"
 
 disableAliases: true
 
@@ -70,7 +69,6 @@ taxonomies:
   author: authors
   tag: tags
   category: categories
-  publication_type: publication_types
 
 markup:
   _merge: deep
