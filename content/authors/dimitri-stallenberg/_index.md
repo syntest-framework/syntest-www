@@ -14,13 +14,31 @@ organizations:
 bio:
 
 # Interests to show in About widget
-interests: []
+interests:
+  - Search-based Software Engineering
+  - Test Case Generation
+  - Machine Learning
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 # For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 # form "mailto:your-email@example.com" or "#contact" for contact widget.
-social: []
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: "mailto:d.m.stallenberg@tudelft.nl"
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/Dimitri18260570
+  - icon: linkedin-in
+    icon_pack: fab
+    link: https://www.linkedin.com/in/dimitri-stallenberg-22ab3a159/
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/dstallenberg
+  - icon: link
+    icon_pack: fas
+    link: https://dimitri-stallenberg.com
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
