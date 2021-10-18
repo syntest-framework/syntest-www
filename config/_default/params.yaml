@@ -43,7 +43,7 @@ org_name: SynTest Framework
 description: SynTest is a framework for generating synthetic test cases for different languages
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter: ""
+twitter: "syntest_org"
 
 ############################
 ## Contact details
