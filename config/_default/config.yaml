@@ -49,7 +49,7 @@ disableAliases: true
 #disableKinds: []
 
 # Enable generation of robots.txt file.
-enableRobotsTXT: false
+enableRobotsTXT: true
 
 # Media types
 #mediatypes:
