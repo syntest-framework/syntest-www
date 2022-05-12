@@ -11,3 +11,6 @@ main:
   - name: Team
     url: "/team"
     weight: 20
+  - name: Docs
+    url: "/docs"
+    weight: 30

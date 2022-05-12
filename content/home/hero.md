@@ -13,22 +13,29 @@ hero_media: ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `cta`.
 #   Remove a link/note by deleting a cta/note block.
 cta:
-  #  url: 'https://wowchemy.com'
+  url: https://www.npmjs.com/package/@syntest/solidity
   label: Get Started
   icon_pack: fas
   icon: download
 cta_alt:
-  #  url: 'https://wowchemy.com'
+  url: docs
   label: View Documentation
 
 # Note. An optional note to show underneath the links.
-cta_note:
-  label: ""
+#cta_note:
+#  label: >-
+#    <span class="js-github-release" data-repo="syntest-framework/syntest-solidity">
+#      Version:<!-- Automatically filled based on data-repo value -->
+#    </span>
 
 design:
   background:
     color: "#25ae60"
 
-  # Text color (true=light, false=dark, or remove for the dynamic theme color).
-  text_color_light: true
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: true
 ---
+
+<a class="github-button" href="https://github.com/syntest-framework/syntest-framework" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest">Star SynTest Framework</a>
+<a class="github-button" href="https://github.com/syntest-framework/syntest-solidity" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest Solidity">Star SynTest Solidity</a>
+<script async defer src="https://buttons.github.io/buttons.js"></script>

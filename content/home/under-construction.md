@@ -1,6 +1,7 @@
 ---
 widget: blank
 headless: true
+active: false
 weight: 15
 
 title: Website under construction
