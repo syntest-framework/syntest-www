@@ -36,6 +36,7 @@ design:
     text_color_light: true
 ---
 
-<a class="github-button" href="https://github.com/syntest-framework/syntest-framework" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest">Star SynTest Framework</a>
-<a class="github-button" href="https://github.com/syntest-framework/syntest-solidity" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest Solidity">Star SynTest Solidity</a>
+<a class="github-button" href="https://github.com/syntest-framework/syntest-core" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest">Star SynTest-Core</a>
+<a class="github-button" href="https://github.com/syntest-framework/syntest-solidity" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest Solidity">Star SynTest-Solidity</a>
+<a class="github-button" href="https://github.com/syntest-framework/syntest-javascript" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star SynTest JavaScript">Star SynTest-JavaScript</a>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
